@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img_2"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="FootBall Price 2.000 RO"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/itemame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Sport Shose Price 15.000 RO"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/Prname"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:hint=" Type Item Name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/Proname"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:hint="Type Item Name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number Of chosen Item"
+        android:inputType="number"
+        android:minHeight="48dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="139dp"
+        android:layout_height="32dp"
+        android:background="#37F4A3A3"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/ADD"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/Delect"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Dele" />
+
+    <Button
+        android:id="@+id/Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/Calcu"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:text="Calcu" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+
+
+</LinearLayout>

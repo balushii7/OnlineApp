@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img_2"
+    android:fitsSystemWindows="true"
+    tools:context=".SignUpPagee">
+    <TextView
+        android:id="@+id/SignPage"
+        android:layout_width="280dp"
+        android:layout_height="51dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="New Account"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signemail"
+        android:layout_width="261dp"
+        android:layout_height="61dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:hint="New Email!"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/signpass"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="New Password!"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signn"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Signn"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Contactp"
+        android:layout_width="244dp"
+        android:layout_height="65dp"
+        android:text="ContactUs" />
+
+
+
+</LinearLayout >
